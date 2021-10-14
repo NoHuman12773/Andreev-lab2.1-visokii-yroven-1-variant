@@ -8,9 +8,9 @@ namespace ConsoleApp13
         {
             try
             {
-                Console.WriteLine("Введите время:");
+                Console.WriteLine("Введите x:");
                 double x = double.Parse(Console.ReadLine());
-                Console.WriteLine("Введите время:");
+                Console.WriteLine("Введите y:");
                 double y = double.Parse(Console.ReadLine());
                 if (((y < 1) && (x > -1) && (y > x + 1)) || 
                     ((y > -1) && (x > -1) && (y < -x - 1)) || 
